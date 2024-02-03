@@ -1,0 +1,2 @@
+1)setup python virtual environment
+2)install Flask,pycryptodome libraries on the venv
