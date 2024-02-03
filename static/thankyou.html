@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="3;url=index.html">
+  <title>Thank You!</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Clear the username from session storage
+    sessionStorage.removeItem('username');
+</script>
+</head>
+
+<body>
+    <header onclick="redirectToHome()">
+        <div class="logo">
+          <img
+            src="https://media.istockphoto.com/id/1135596398/vector/evm-electronic-voting-machine-icon.jpg?s=170667a&w=0&k=20&c=O4HylRY14hfgRkvYy0EfluBvN8sp-H-6az_bz6B-lwc="
+            alt="Election Logo">
+        </div>
+        Election Website
+    </header>    
+  <h1>Thank You for Voting!</h1>
+  <p>Your vote has been successfully submitted.</p>
+  <p>Redirecting you to the home page...</p>
+</body>
+
+</html>

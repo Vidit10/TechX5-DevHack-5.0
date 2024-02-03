@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cast Vote</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Cast Your Vote</h1>
+    <form id="voteForm">
+      <p>Who would you vote for?</p>
+      <div class="options">
+        <input type="radio" id="candidate1" name="candidate" value="candidate1">
+        <label for="candidate1">Candidate 1</label><br>
+        <input type="radio" id="candidate2" name="candidate" value="candidate2">
+        <label for="candidate2">Candidate 2</label><br>
+        <input type="radio" id="candidate3" name="candidate" value="candidate3">
+        <label for="candidate3">Candidate 3</label><br>
+      </div>
+      <button type="submit" onclick="vote()">Submit Vote</button>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+  <script src="script-vote.js"></script>
+</body>
+
+</html>
