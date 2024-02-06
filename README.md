@@ -8,6 +8,12 @@ Team TechX5 at IIT Dharwad for PARSEC 4.0 repository!
 
 2. Activate your virtual environment using the following command:
 
+    ```bash
+    source venv/bin/activate  # For Linux/Mac
+    # or
+    venv\Scripts\activate  # For Windows
+    ```
+
 3. Load the localhost (index) and navigate through the site.
 
 4. Use the sample login credentials provided in `login.csv` (present in the static folder) to access the site.
