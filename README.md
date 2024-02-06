@@ -1,8 +1,21 @@
-# TechX5-DevHack-5.0
+# TechX5-DevHack-5.0 Repository
+
 Team TechX5 at IIT Dharwad for PARSEC 4.0 repository!
 
-make sure to complete requirements.txt
-once done activate your virtual environment and load localhost (index) and go through the site
-some sample login id's are given in the login.csv present in static folder to access
-Demovideo URL: https://www.youtube.com/watch?v=rFdOdK302AY
-you can access the tampering test case file as tampering.jpynb
+## Instructions
+
+1. Complete the requirements listed in `requirements.txt`.
+
+2. Activate your virtual environment using the following command:
+
+3. Load the localhost (index) and navigate through the site.
+
+4. Use the sample login credentials provided in `login.csv` (present in the static folder) to access the site.
+
+## Additional Resources
+
+- **Demo Video:** [Watch Demo Video](https://www.youtube.com/watch?v=rFdOdK302AY)
+
+- **Tampering Test Case:** Check the tampering test case file `tampering.jpynb` for additional testing.
+
+Feel free to explore and contribute to the development of the project. Happy hacking!
